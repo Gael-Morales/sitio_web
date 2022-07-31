@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Man</title>
+    <link rel="stylesheet" href="estilos css/style.css">
+</head>
+<body>
+    <!--Encabezado-->
+    <header class="bloque-fondo">
+        <!--Logo y titulo-->
+        <div>
+            <img id="logo" src="imagenes/logo.png" alt="logo de la pagina" height="100">
+            <h1 id="titulo">Spider-Man tierra 616</h1>
+            <a id="link" href="https://www.akiracomics.com/blog/spiderman-mejores-comics">Mejores comics</a>
+        </div>
+    </header>
+    <!--Contenido principal-->
+     <div id="contenido-lista" class="bloque-fondo">
+        <button id="btn" onclick="cambiar_origen()">Origen</button>
+        <button id="btn" onclick="cambiar_parejas()">Parejas</button>
+        <button id="btn" onclick="cambiar_villanos()">Villanos</button>
+     </div>
+     <!--Contenido seleccionado-->
+    <div id="contenido-seleccionado" class="bloque fondo">
+        <center><img src="imagenes/spidey.png" alt="caja de personaje" height="275"></center>
+        <br>
+        <p>
+            Peter Benjamin Parker es el hijo de Richard y Mary Parker, ambos agentes de la CIA y posteriormente de S.H.I.E.L.D. Después de que sus progenitores murieran en un accidente aéreo, el pequeño Peter quedó al cuidado de sus tíos May y Ben Parker, que vivían en Forest Hills, un barrio de Queens, en Nueva York.
+        </p>
+        <div id="origen">
+        <img id="origen-imagen" src="imagenes/origen.png" alt="origen" height="250" style="float: right;">
+        <p>
+            Durante una visita estudiantil hacía a la Facultad de Ciencias Exactas y Naturales de la UBA, patrocinado por el General Techtronics Corporation, Peter fue picado por una araña radioactiva, provocando que este obtuviera poderes sobrehumanos que son, elocidad, fuerza y agilidad proporcionales a las de una araña de su tamaño; un "sentido arácnido" que le avisa de peligros y la habilidad de adherirse y desplazarse por cualquier muro o pared, independientemente de su horizontalidad. Posterior a eso construye un mecanismo que le permite lanzar un producto químico a manera de telaraña
+        </p>
+        </div>
+        <div id="primer-aparicion">
+        <p>
+            Su primera aparición pública tuvo lugar cuando vio un espectáculo de lucha libre, donde ofrecían un premio a quien aguantara tres minutos frente a un luchador profesional. Interesado en probar sus nuevos poderes, Parker decidió aceptar el reto. Se puso una máscara para esconder su cara y así evitar la vergüenza si perdía, pero derrotó con facilidad a su adversario. Un cazador de talentos le filmó y le ofreció un espacio en un programa de televisión. Peter aceptó la oferta y se hizo llamar así mismo el asombroso Spider-Man, decidiendo utilizar este medio como trampolín para hacer carrera en el mundo del espectáculo.
+        </p>
+        <center><img id="aparicion" src="imagenes/primera aparicion.png" alt="primera aparicion" height="250"></center>
+        </div>
+        <div id="un-gran-poder">
+            <img id="frase" src="imagenes/frase.png" alt="frase" height="260">
+            <br>
+        <p>
+           Una vez preparado se presentó en televisión y tuvo un éxito inmediato. Tras terminar el programa, Peter dejó escapar a un ladrón, pese a que hubiera podido detenerlo con facilidad. Algunos días más tarde al volver a casa encontró que su tío Ben había sido asesinado por un ladrón, que se había refugiado en un almacén abandonado, donde la policía lo había rodeado. Desconsolado adoptó de nuevo la identidad de Spider-Man y lo capturó rápidamente descubriendo que había sido el mismo ladrón que había dejado escapar en los estudios de televisión. Desde ese día decidió luchar contra el crimen bajo la enseñanza que «Un gran poder, conlleva una gran responsabilidad».
+        </p>
+        </div>
+    </div>
+    <div></div>
+    <script src="js/prueba.js"></script>
+</body>
+</html>
